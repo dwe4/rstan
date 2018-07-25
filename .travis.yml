@@ -1,7 +1,7 @@
-sudo: true
+sudo: required
 dist: trusty
-services:
-  - docker
+# services:
+#   - docker
 
 cache: 
   apt: true
